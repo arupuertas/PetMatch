@@ -1,35 +1,29 @@
 import streamlit as st
 
 def main():
-    # Título do aplicativo
+    st.set_page_config(page_title="Grupo UPX", page_icon='🐈‍⬛')
+    logo = 'src/img/logo.png'
+    st.image(logo, width=220, use_column_width=False)
     st.title("Página de Apresentação")
 
-    # Conteúdo da página de apresentação
     st.write("""
-    # Bem-vindo à nossa página de apresentação do projeto!
+    ## GRUPO UPX V:
 
-    Este aplicativo foi desenvolvido por uma equipe dedicada. Abaixo, você encontrará informações sobre os membros da equipe e seus papéis no projeto.
+    ### Aruã Puertas Costa
+    E-mail: aruapc@hotmail.com  
+    RA: 132588
 
-    ## Equipe
+    ### Roberto Elias de Souza
+    E-mail: robertoeliassouza@gmail.com  
+    RA: 223657
 
-    ### João Silva
-    Desenvolvedor Full Stack
+    ### Silvio de Campos Junior
+    E-mail: scjunior95@gmail.com   
+    RA: 132277
 
-    ### Maria Santos
-    Designer de UX/UI
+    ## Sobre o Projeto:
 
-    ### Pedro Oliveira
-    Especialista em Negócios
-
-    ### Ana Rodrigues
-    Gerente de Projeto
-
-    ### Laura Costa
-    Especialista em Marketing
-
-    ## Sobre o Projeto
-
-    Este projeto tem como objetivo ajudar a reunir pets desaparecidos com seus donos. Se você encontrar um pet perdido, por favor, entre em contato conosco para que possamos ajudar a reunir a família novamente!
+    Facilitar a adoção de animais e o report de animais desaparecidos.
 
     """)
 

@@ -6,7 +6,9 @@ def load_reports():
     return st.session_state.reports
 
 def main():
-    # Título do aplicativo
+    st.set_page_config(page_title="Relatórios", page_icon='🐈‍⬛')
+    logo = 'src/img/logo.png'
+    st.image(logo, width=220, use_column_width=False)
     st.title("Relatório de Animais Desaparecidos")
     
     # Menu de abertura
@@ -21,7 +23,6 @@ def main():
         view_reports(reports)
 
 def report_animal(reports):
-    # Formulário para inserir informações sobre o animal desaparecido
     with st.form("report_form"):
         st.header("Informe sobre o Animal Desaparecido")
         
@@ -34,9 +35,7 @@ def report_animal(reports):
         
         submit_button = st.form_submit_button("Enviar Relatório")
 
-    # Se o formulário for enviado, processar os dados
     if submit_button:
-        # Salvar os dados na lista de relatórios
         new_report = {
             "Tipo de Animal": animal_type,
             "Raça": breed,
@@ -46,12 +45,10 @@ def report_animal(reports):
             "Foto": photo
         }
         reports.append(new_report)
-        
-        # Exibir mensagem de sucesso
+
         st.success("O relatório foi enviado com sucesso!")
 
 def view_reports(reports):
-    # Exibir relatórios anteriores
     st.header("Relatórios Anteriores")
     for i, report in enumerate(reports):
         st.subheader(f"Relatório #{i + 1}")
