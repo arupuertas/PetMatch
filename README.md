@@ -3,7 +3,7 @@
 ![PET Match](src/img/logo.png)
 
 ## Descrição
-O **PET Match** é um aplicativo desenvolvido pelo Grupo UPX V com o objetivo de facilitar a adoção de animais e o reporte de animais perdidos. Com diversas funcionalidades e uma interface amigável, o aplicativo oferece uma plataforma para conectar pessoas que desejam adotar um pet com animais que estão disponíveis para adoção, além de possibilitar o registro e visualização de animais desaparecidos.
+O **PET Match** é um aplicativo desenvolvido pelo Grupo 5 de UPX V com o objetivo de facilitar a adoção de animais e o reporte de animais perdidos. Com diversas funcionalidades e uma interface amigável, o aplicativo oferece uma plataforma para conectar pessoas que desejam adotar um pet com animais que estão disponíveis para adoção, além de possibilitar o registro e visualização de animais desaparecidos.
 
 ## Funcionalidades
 
