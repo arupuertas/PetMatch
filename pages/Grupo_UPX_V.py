@@ -7,7 +7,7 @@ def main():
     st.title("Página de Apresentação")
 
     st.write("""
-    ## GRUPO UPX V:
+    ## GRUPO 8 - UPX V:
 
     ### Aruã Puertas Costa
     E-mail: aruapc@hotmail.com  
