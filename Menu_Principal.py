@@ -1,6 +1,17 @@
 import streamlit as st
 
 def main():
+    #GRUPO:
+    
+    #Aruã Puertas Costa
+    #RA: 132588
+
+    #Roberto Elias de Souza
+    #RA: 223657
+    
+    #Silvio de Campos Junior 
+    #RA: 132277
+    
     st.set_page_config(page_title="PET Match", page_icon='🐈‍⬛')
     logo = 'src/img/logo.png'
     st.image(logo, width=220, use_column_width=False)
